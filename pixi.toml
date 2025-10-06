@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Swapneel Amit Pathak <swapiitr@gmail.com>"]
+channels = ["conda-forge"]
+name = "fem-bem-demag"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+bempp-cl = ">=0.4.2,<0.5"
+python = ">=3.13.7,<3.14"
+scikit-fem = ">=11.0.0,<12"
+python-gmsh = ">=4.13.1,<5"
+jupyterlab-spellchecker = ">=0.8.4,<0.9"
