@@ -1,9 +1,11 @@
 # FEM-BEM hybrid method to solve the demagnetisation field
 
 From Maxwell's equations, the main PDE we get to solve for the demagnetisation field in the absence of an electric current is:
+
 $$
 \Delta u = \nabla \cdot \vec{M},
 $$
+
 where $u$ magnetosatic potential, and $\vec{M}$ is the magnetisation. This equation holds over a domain $\Omega$ where magnetisation is finite. The Poisson equation has an open boundary condition as $u$ decays to zero at infinity. Further, one can obtain the demagnetisation field from the magnetistatic potential as:
 
 $$
