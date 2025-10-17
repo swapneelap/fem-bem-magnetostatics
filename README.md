@@ -16,9 +16,9 @@ This can be solved using standard FEM formulation, however, one needs to mesh re
 
 $$
 \begin{align}
-    \Delta{u_1} &= \nabla \cdot \vec{M}; \, \frac{\partial{u_1}}{\partial{n}} = \vec{M} \cdot \hat{n} \text{ on d} \Omega\\
-    u_2(x') &= \oint_{\text{d}\Omega} u_1(x) \cdot \frac{\partial{G(x, x')}}{\partial{n}} \, \text{d}S + \big( \frac{\Psi(x')}{4\pi} - 1 \big) u_1(x'); \, x' \in \text{d}\Omega \\
-    \Delta{u_2} &= 0; \, \text{Dirichlet BC from above.} \\
+    \Delta{u_1} &= \nabla \cdot \vec{M}; \ \frac{\partial{u_1}}{\partial{n}} = \vec{M} \cdot \hat{n} \text{ on d} \Omega\\
+    u_2(x') &= \oint_{\text{d}\Omega} u_1(x) \cdot \frac{\partial{G(x, x')}}{\partial{n}} \ \text{d}S + \big( \frac{\Psi(x')}{4\pi} - 1 \big) u_1(x'); \ x' \in \text{d}\Omega \\
+    \Delta{u_2} &= 0; \ \text{Dirichlet BC from above.} \\
     u &= u_1 + u_2.
 \end{align}
 $$
