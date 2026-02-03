@@ -24,3 +24,9 @@ $$
 $$
 
 The second step is obtained through BEM formulation. The goal here is to go over each step and solve for $u_1$ and $u_2$, and thus, ultimately $u$.
+
+## Running the notebooks
+
+1. Install pixi: https://pixi.prefix.dev/latest/installation/
+2. To launch notebook for mesh calculation, run `pixi run mesh-calculation` in the terminal.
+3. To launch notebook for demagnetisation field calculation, run `pixi run demag-calculation` in the terminal.

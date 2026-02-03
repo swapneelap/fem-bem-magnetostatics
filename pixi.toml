@@ -1,11 +1,13 @@
 [workspace]
-authors = ["Swapneel Amit Pathak <swapiitr@gmail.com>"]
-channels = ["conda-forge"]
+authors = [ "Swapneel Amit Pathak <swapiitr@gmail.com>" ]
+channels = [ "conda-forge" ]
 name = "fem-bem-demag"
-platforms = ["linux-64"]
+platforms = [ "linux-64" ]
 version = "0.1.0"
 
 [tasks]
+demag-calculation = "jupyter-lab fem-bem-demag.ipynb"
+mesh-calculation = "jupyter-lab create-mesh.ipynb"
 
 [dependencies]
 bempp-cl = ">=0.4.2,<0.5"
